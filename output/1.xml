@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hmiwidget>
+<widget name="polygon" class="Polygon">
+    <properties>
+        <property name="left" type="short" value="0"/>
+        <property name="top" type="short" value="0"/>
+        <property name="right" type="short" value="117"/>
+        <property name="bottom" type="short" value="147"/>
+        <property name="visible" type="uchar" value="1"/>
+        <property name="enable" type="uchar" value="1"/>
+        <property name="noredraw" type="uchar" value="0"/>
+        <property name="flash" type="uchar" value="0"/>
+        <property name="flashspeed" type="ulong" value="1"/>
+        <property name="xoffset" type="short" value="0"/>
+        <property name="yoffset" type="short" value="0"/>
+        <property name="linecolor" type="ulong" value="4278190080"/>
+        <property name="linewidth" type="ulong" value="1"/>
+        <property name="linestyle" type="ulong" value="1"/>
+        <property name="joinStyle" type="ulong" value="2"/>
+        <property name="fillcolor" type="ulong" value="4286545791"/>
+        <property name="points" type="string" length="54" value="(117,147)(117,147)(117,0)(0,61)(0,85)(117,147)"/>
+        <property name="startcolor" type="ulong" value="4278190080"/>
+        <property name="endcolor" type="ulong" value="4294967295"/>
+        <property name="direction" type="ulong" value="2"/>
+  </properties>
+  <dynamics/>
+  <events/>
+ </widget>
+<widget name="window" class="window">
+    <properties>
+        <property name="left" type="short" value="0"/>
+        <property name="top" type="short" value="0"/>
+        <property name="right" type="short" value="1083"/>
+        <property name="bottom" type="short" value="813"/>
+        <property name="visible" type="uchar" value="1"/>
+        <property name="enable" type="uchar" value="1"/>
+        <property name="noredraw" type="uchar" value="0"/>
+        <property name="flash" type="uchar" value="0"/>
+        <property name="flashspeed" type="ulong" value="1"/>
+        <property name="xoffset" type="short" value="0"/>
+        <property name="yoffset" type="short" value="0"/>
+        <property name="style" type="ulong" value="0"/>
+        <property name="bkcolor" type="ulong" value="16777215"/>
+        <property name="security_level" type="ushort" value="2"/>
+        <property name="security_mode" type="uchar" value="2"/>
+        <property name="statusvar" type="string" length="1" value=""/>
+        <property name="type" type="uchar" value="0"/>
+  </properties>
+  <dynamics/>
+  <events/>
+ </widget>
+</hmiwidget>
